@@ -790,13 +790,12 @@ p {
     height: 320px;
   }
 }
-/* !!!!!!!!!!!!!!!!!! CSS FOR ABOUT PAGE VIDEO !!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!! CSS FOR ABOUT PAGE VIDEO !!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!! CSS FOR ABOUT PAGE VIDEO !!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!! CSS FOR ABOUT PAGE VIDEO !!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!! CSS FOR ABOUT PAGE VIDEO !!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!! CSS FOR ABOUT PAGE VIDEO !!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!! CSS FOR ABOUT PAGE VIDEO !!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!! CSS FOR HEALTH PAGE VIDEO !!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!! CSS FOR HEALTH PAGE VIDEO !!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!! CSS FOR HEALTH PAGE VIDEO !!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!! CSS FOR HEALTH PAGE VIDEO !!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!! CSS FOR HEALTH PAGE VIDEO !!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!! CSS FOR HEALTH PAGE VIDEO !!!!!!!!!!!!! */
 
 .health-page-video-section-container {
   display: flex;
@@ -1151,10 +1150,10 @@ p {
 .healthPage-slider-swiper-button-prev,
 .healthPage-slider-swiper-button-next {
   display: none;
-  top: 30%;
+  top: 20%;
 }
 @media (min-width: 400px) {
-  .ahealthPage-slider-swiper-wrapper {
+  .healthPage-slider-swiper-wrapper {
     min-height: 500px;
   }
 }
@@ -1167,7 +1166,7 @@ p {
     padding: 0;
   }
   .healthPage-slider {
-    max-width: 900px;
+    max-width: 570px;
     margin: auto;
   }
   .healthPage-slider-swiper-button-prev,
@@ -1184,23 +1183,23 @@ p {
     right: 10px;
   }
 }
-@media (min-width: 700px) {
+
+@media (min-width: 768px) {
   .healthPage-slider-swiper-container {
     max-width: 600px;
   }
-  .healthPage-slider-swiper-wrapper {
-    min-height: 520px;
-    padding: 0;
+  .healthPage-slider-swiper-button-prev,
+  .healthPage-slider-swiper-button-next {
+    top: 20%;
   }
   .healthPage-slider {
-    max-width: 900px;
-    margin: auto;
+    max-width: 750px;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
   .healthPage-slider-swiper-container {
-    max-width: 890px;
+    max-width: 860px;
   }
   .healthPage-slider-swiper-wrapper {
     min-height: 500px;
@@ -1210,6 +1209,9 @@ p {
   }
   .healthPage-slider-swiper-button-next {
     right: -40px;
+  }
+  .healthPage-slider {
+    max-width: 860px;
   }
 }
 

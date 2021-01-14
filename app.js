@@ -155,32 +155,36 @@ var myHealthPageSwiper = new Swiper(".healthPage-slider-swiper-container", {
       slidesPerView: 1.5,
     },
     450: {
-      slidesPerView: 1.5,
+      slidesPerView: 2.3,
     },
     500: {
       slidesPerView: 1.8,
     },
     700: {
-      slidesPerView: 2.2,
+      slidesPerView: 1.8,
     },
-    1000: {
-      slidesPerView: 3,
+    768: {
+      slidesPerView: 2.5,
     },
+    992: {
+      slidesPerView: 3.5,
+    },
+
     1200: {
       slidesPerView: 4,
     },
   },
 });
 
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
-// !!!!!!!!!!!!! JAVASCRIPT FOR THIRD SLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
+// !!!!!!!!!!!!! JAVASCRIPT FOR HEALTH PAGE SEOCNDSLIDER !!!!!!!!!!!!!!!
 
 var myThirdSwiper = new Swiper(".health-page-second-slider-swiper-container", {
   speed: 400,
